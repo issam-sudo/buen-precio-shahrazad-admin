@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/bootstrap';
+
+
+*{
+  letter-spacing:1.1px !important
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+
+  }
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(41, 41, 41);
+    border-radius: 5px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
