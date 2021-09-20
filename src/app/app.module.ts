@@ -13,6 +13,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
  import { ComponentsModule } from './components/components.module';
 import { NgxDropzoneModule } from 'ngx-dropzone';
  import { AppRoutingModule } from './app.routing';
+  
  
 @NgModule({
   imports: [
@@ -29,6 +30,8 @@ import { NgxDropzoneModule } from 'ngx-dropzone';
     AppComponent,
     AdminLayoutComponent,
     AuthLayoutComponent,
+  
+ 
  
    ],
   providers: [],

@@ -4,10 +4,10 @@
     <div class="card-header bg-white border-0">
         <div class="row align-items-center">
             <div class="col-8">
-                <h3 class="mb-0">My blog From</h3>
+                <h3 class="mb-0">My Faq From</h3>
             </div>
             <div class="col-4 text-right">
-                <a class="btn btn-sm btn-primary">Shahrazad Blog Form</a>
+                <a class="btn btn-sm btn-primary">Shahrazad Faq (frequently asked questions) Form</a>
             </div>
         </div>
     </div>
@@ -16,27 +16,10 @@
 
 
             <!-- Description -->
-            <h6 class="heading-small text-muted mb-4">Upload image*</h6>
-            <div class="pl-lg-4">
-                <div class="custom-dropzone" ngx-dropzone [accept]="'image/*'" [multiple]="true"
-                    (change)="onSelect($event)">
-                    <ngx-dropzone-label>
-                        <div>
-                            <h2>Drag and drop or click</h2>
-                        </div>
-                    </ngx-dropzone-label>
-                    <ngx-dropzone-image-preview ngProjectAs="ngx-dropzone-preview" *ngFor="let f of files" [file]="f"
-                        [removable]="true" (removed)="onRemove(f)">
-                        <ngx-dropzone-label> ({{ f.type }})</ngx-dropzone-label>
-                    </ngx-dropzone-image-preview>
-                </div>
-                <div class="form-control-label" style="color: rgb(221, 56, 56);" *ngIf="submitted && !files.length">
-                    <sup>*</sup>Upload Image
-                </div>
-            </div>
+          
 
             <hr class="my-4" />
-            <h6 class="heading-small text-muted mb-4">Blog information*</h6>
+            <h6 class="heading-small text-muted mb-4">Faq information*</h6>
             <div class="pl-lg-4">
                 <div class="row" formGroupName="blog">
                     <div class="col-lg-6">
@@ -44,7 +27,7 @@
 
                             <label class="form-control-label" for="input-title"
                                 [ngClass]="{'error': submitted && myForm.blog['controls'].title.errors}">Title*</label>
-                            <input [(ngModel)]="updateBlog.title" type="text" id="input-title"
+                            <input [(ngModel)]="updateFaq.title" type="text" id="input-title"
                                 class="form-control form-control-alternative" placeholder="title"
                                 formControlName="title"
                                 [ngClass]="{'error': submitted && myForm.blog['controls'].title.errors}">
@@ -60,7 +43,7 @@
                         <div class="form-group">
                             <label class="form-control-label" for="input-description"
                                 [ngClass]="{'error': submitted && myForm.blog['controls'].description.errors}">Description*</label>
-                            <input [(ngModel)]="updateBlog.description" type="text" id="input-description"
+                            <input [(ngModel)]="updateFaq.description" type="text" id="input-description"
                                 class="form-control form-control-alternative" placeholder="description"
                                 formControlName="description"
                                 [ngClass]="{'error': submitted && myForm.blog['controls'].description.errors}">

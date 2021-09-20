@@ -13,6 +13,8 @@ export const ROUTES: RouteInfo[] = [
     { path: '/user', title: 'User',  icon:'ni-circle-08 text-pink', class: '' },
     { path: '/category', title: 'Category',  icon:'ni-collection text-blue', class: '' },
     { path: '/subcategory', title: 'Sous Category',  icon:'ni-single-copy-04 text-red', class: '' },
+    { path: '/stock', title: 'Stock',  icon:'ni-archive-2 text-orange', class: '' },
+    { path: '/blog', title: 'Blog',  icon:'ni-books text-pink', class: '' },
     { path: '/tag', title: 'Tag',  icon:'ni-tag text-info', class: '' },
     { path: '/marque', title: 'Marque',  icon:'ni-tie-bow text-orange', class: '' },
     { path: '/achat', title: 'Achat',  icon:'ni-shop text-primary', class: '' },
@@ -21,7 +23,8 @@ export const ROUTES: RouteInfo[] = [
     { path: '/user-profile', title: 'User profile',  icon:'ni-single-02 text-yellow', class: '' },
     // { path: '/tables', title: 'Tables',  icon:'ni-bullet-list-67 text-red', class: '' },
     { path: '/login', title: 'Login',  icon:'ni-key-25 text-info', class: '' },
-    { path: '/register', title: 'Register',  icon:'ni-circle-08 text-pink', class: '' }
+    { path: '/register', title: 'Register',  icon:'ni-circle-08 text-pink', class: '' },
+    { path: '/faq', title: 'faq',  icon:'ni-chat-round text-primary', class: '' },
 ];
 
 @Component({

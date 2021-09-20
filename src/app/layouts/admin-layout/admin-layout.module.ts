@@ -23,6 +23,10 @@ import { ShahrazadTagsComponent } from 'src/app/pages/shahrazad-tags/shahrazad-t
 import { ShahrazadUsersComponent } from 'src/app/pages/shahrazad-users/shahrazad-users.component';
 // import { ToastrModule } from 'ngx-toastr';
 import {NgApexchartsModule} from 'ng-apexcharts'
+import { NgxDropzoneModule } from 'ngx-dropzone';
+import { ShahrazadStocksComponent } from 'src/app/pages/shahrazad-stocks/shahrazad-stocks.component';
+import { ShahrazadBlogsComponent } from 'src/app/pages/shahrazad-blogs/shahrazad-blogs.component';
+import { ShahrazadFaqsComponent } from 'src/app/pages/shahrazad-faqs/shahrazad-faqs.component';
 
 @NgModule({
   imports: [
@@ -32,7 +36,9 @@ import {NgApexchartsModule} from 'ng-apexcharts'
     HttpClientModule,
     NgbModule,
     ClipboardModule,
-    NgApexchartsModule
+    NgApexchartsModule,
+    ReactiveFormsModule,
+    NgxDropzoneModule,
   ],
   declarations: [
     DashboardComponent,
@@ -48,6 +54,9 @@ import {NgApexchartsModule} from 'ng-apexcharts'
     ShahrazadBrandsComponent,
     ShahrazadHomeComponent,
     ShahrazadShopComponent,
+    ShahrazadBlogsComponent,
+    ShahrazadStocksComponent,
+    ShahrazadFaqsComponent,
   ]
 })
 

@@ -3,11 +3,11 @@ import { FormBuilder, Validators } from '@angular/forms';
 import Swal from 'sweetalert2';
 
 @Component({
-  selector: 'app-shahrazad-brands',
-  templateUrl: './shahrazad-brands.component.html',
-  styleUrls: ['./shahrazad-brands.component.scss']
+  selector: 'app-shahrazad-blogs',
+  templateUrl: './shahrazad-blogs.component.html',
+  styleUrls: ['./shahrazad-blogs.component.scss']
 })
-export class ShahrazadBrandsComponent implements OnInit {
+export class ShahrazadBlogsComponent implements OnInit {
   panelOpenState:Boolean = false;
   submitted:Boolean = false;
   files: File[] = [];  

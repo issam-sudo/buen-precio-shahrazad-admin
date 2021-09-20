@@ -11,6 +11,9 @@ import { ShahrazadSubCategoryComponent } from 'src/app/pages/shahrazad-sub-categ
 import { ShahrazadTagsComponent } from 'src/app/pages/shahrazad-tags/shahrazad-tags.component';
 import { ShahrazadBrandsComponent } from 'src/app/pages/shahrazad-brands/shahrazad-brands.component';
 import { ShahrazadShopComponent } from 'src/app/pages/shahrazad-shop/shahrazad-shop.component';
+import { ShahrazadStocksComponent } from 'src/app/pages/shahrazad-stocks/shahrazad-stocks.component';
+import { ShahrazadBlogsComponent } from 'src/app/pages/shahrazad-blogs/shahrazad-blogs.component';
+import { ShahrazadFaqsComponent } from 'src/app/pages/shahrazad-faqs/shahrazad-faqs.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'dashboard',      component: DashboardComponent },
@@ -23,6 +26,9 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'subcategory',           component: ShahrazadSubCategoryComponent },
     { path: 'tag',          component: ShahrazadTagsComponent },
     { path: 'marque',           component: ShahrazadBrandsComponent },
-    { path: 'achat',           component: ShahrazadShopComponent }
+    { path: 'achat',           component: ShahrazadShopComponent },
+    { path: 'stock',           component: ShahrazadStocksComponent },
+    { path: 'blog',           component: ShahrazadBlogsComponent },
+    { path: 'faq',           component: ShahrazadFaqsComponent },
 
 ];
