@@ -39,7 +39,7 @@ export class ShahrazadFaqsComponent implements OnInit {
     blog: this.fb.group({
       title: ['', [Validators.required]],
       description: ['', [Validators.required]],
-   
+      topic: ['', [Validators.required]],
     })
   })
 
